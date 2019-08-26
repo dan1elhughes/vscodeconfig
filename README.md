@@ -14,3 +14,7 @@ OUTPUT="$HOME/Library/Application Support/Code/User"
 Then run `sh install.sh` to template out the config into the right location.
 
 _Note that this is a dumb installer - back up existing config first_
+
+## Updating extensions
+
+To update the extensions list, run `export.sh` and commit the result.

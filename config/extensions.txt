@@ -1,0 +1,15 @@
+be5invis.theme-verdandi
+dbaeumer.vscode-eslint
+dzannotti.vscode-babel-coloring
+esbenp.prettier-vscode
+fabiospampinato.vscode-open-in-github
+flowtype.flow-for-vscode
+jolaleye.horizon-theme-vscode
+LawrenceGrant.cql
+ms-azuretools.vscode-docker
+ms-vscode.Go
+ms-vsliveshare.vsliveshare
+Prisma.vscode-graphql
+teabyii.ayu
+wayou.vscode-todo-highlight
+zxh404.vscode-proto3
