@@ -31,5 +31,7 @@
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": "ayu",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false
 }
