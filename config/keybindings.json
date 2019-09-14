@@ -53,5 +53,31 @@
         "key": "shift+cmd+z",
         "command": "-redo",
         "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-scrollLineUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "shift+cmd+]",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "shift+cmd+[",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-scrollLineDown",
+        "when": "textInputFocus"
     }
 ]
