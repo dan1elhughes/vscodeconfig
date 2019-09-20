@@ -20,6 +20,9 @@
   "files.trimTrailingWhitespace": true,
   "javascript.validate.enable": false,
   "problems.decorations.enabled": false,
+  "search.exclude": {
+    "**.rule": true
+  },
   "search.location": "sidebar",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
