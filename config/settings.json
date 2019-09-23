@@ -6,6 +6,9 @@
   "editor.fontSize": 22,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "[proto3]": {
+    "editor.formatOnSave": false
+  },
   "editor.gotoLocation.multiple": "goto",
   "editor.hideCursorInOverviewRuler": true,
   "editor.lineHeight": 34,
