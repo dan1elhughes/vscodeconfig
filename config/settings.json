@@ -24,6 +24,7 @@
   "javascript.validate.enable": false,
   "problems.decorations.enabled": false,
   "search.exclude": {
+    "**/node_modules": true,
     "**.rule": true
   },
   "search.location": "sidebar",
