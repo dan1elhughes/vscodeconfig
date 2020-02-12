@@ -34,7 +34,7 @@
     "**/node_modules": true,
     "**.rule": true
   },
-  "search.location": "sidebar",
+  "search.useIgnoreFiles": true,
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "terminal.integrated.fontSize": 16,
