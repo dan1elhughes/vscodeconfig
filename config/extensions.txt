@@ -1,6 +1,7 @@
 be5invis.theme-verdandi
 bungcip.better-toml
 casualjim.gotemplate
+coolbear.systemd-unit-file
 dbaeumer.vscode-eslint
 dzannotti.vscode-babel-coloring
 esbenp.prettier-vscode
@@ -11,6 +12,7 @@ jpoissonnier.vscode-styled-components
 LawrenceGrant.cql
 mechatroner.rainbow-csv
 ms-azuretools.vscode-docker
+ms-python.python
 ms-vscode.Go
 ms-vsliveshare.vsliveshare
 Prisma.vscode-graphql
