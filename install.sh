@@ -4,9 +4,9 @@
 
 mkdir -p "$OUTPUT"
 
-files=("keybindings.json" "settings.json")
+files=("keybindings.json" "settings.json" "snippets")
 for f in "${files[@]}"; do
-	cp "./config/$f" "$OUTPUT/$f"
+	ln -sv "$PWD/config/$f" "$OUTPUT/$f"
 	echo ":: $OUTPUT/$f"
 done
 
