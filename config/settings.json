@@ -21,6 +21,13 @@
   "editor.renderLineHighlight": "none",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "go.coverOnSave": true,
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredGutterStyle": "blockblue",
+    "uncoveredGutterStyle": "slashyellow"
+  },
+  "go.coverOnSingleTest": true,
   "javascript.validate.enable": false,
   "problems.decorations.enabled": false,
   "search.exclude": {
