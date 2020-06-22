@@ -2,13 +2,12 @@
 
 . .env
 
+[ -z "$OUTPUT" ] && echo "Missing OUTPUT environment variable. Check readme"
+
 mkdir -p "$OUTPUT"
 
 files=("keybindings.json" "settings.json" "snippets")
 for f in "${files[@]}"; do
-	ln -sv "$PWD/config/$f" "$OUTPUT/$f"
-	echo ":: $OUTPUT/$f"
+	ln -sfv "$PWD/config/$f" "$OUTPUT/$f"
 done
 
-echo "Installing extensions..."
-cat config/extensions.txt | xargs -L 1 code --install-extension | grep -v "Installing extensions..."

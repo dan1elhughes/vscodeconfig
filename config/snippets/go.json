@@ -1,23 +1,23 @@
 {
-  // Place your snippets for go here. Each snippet is defined under a snippet name and has a prefix, body and
-  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-  // same ids are connected.
-  // Example:
   "Take a distsync.Lock": {
     "prefix": "lock",
+    "description": "Take a distsync.Lock",
     "body": [
       "lock, err := distsync.Lock(req, body.${1:Id})",
       "if err != nil {",
       "\treturn typhon.Response{Error: err}",
       "}",
       "defer lock.Unlock()"
-    ],
-    "description": "Take a distsync.Lock"
+    ]
   },
   "Slog debug": {
     "prefix": "debug",
-    "body": "slog.Debug(ctx, \"${1}: %+v\", ${1})",
-    "description": "Slog debug"
+    "description": "Slog debug",
+    "body": "slog.Debug(ctx, \"${1}: %+v\", ${1})"
+  },
+  "Make slice": {
+    "prefix": "makeslice",
+    "description": "Make a fixed-length slice",
+    "body": "${1} := make([]${2}, len(${3}))"
   }
 }

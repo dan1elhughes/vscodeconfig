@@ -6,9 +6,6 @@
   "editor.fontSize": 22,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "[proto3]": {
-    "editor.formatOnSave": false
-  },
   "editor.gotoLocation.multiple": "goto",
   "editor.hideCursorInOverviewRuler": true,
   "editor.lineHeight": 34,
@@ -28,6 +25,7 @@
     "uncoveredGutterStyle": "slashyellow"
   },
   "go.coverOnSingleTest": true,
+  "go.useLanguageServer": false,
   "javascript.validate.enable": false,
   "problems.decorations.enabled": false,
   "search.exclude": {
@@ -48,5 +46,16 @@
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": false,
   "zenMode.centerLayout": false,
-  "zenMode.fullScreen": false
+  "zenMode.fullScreen": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[proto3]": {
+    "editor.formatOnSave": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

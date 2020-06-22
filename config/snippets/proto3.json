@@ -1,0 +1,15 @@
+{
+  "Proto RPC": {
+    "prefix": "rpc",
+    "body": [
+      "rpc ${1}(${1}Request) returns (${1}Response) {",
+      "    option (handler).method = \"$2\";",
+      "    option (handler).path = \"/$3\";",
+      "}"
+    ]
+  },
+  "Proto message": {
+    "prefix": "message",
+    "body": ["message ${1}Request {}", "message ${1}Response {}"]
+  }
+}
