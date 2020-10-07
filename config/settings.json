@@ -16,6 +16,23 @@
   "editor.quickSuggestionsDelay": 500,
   "editor.renderIndentGuides": false,
   "editor.renderLineHighlight": "none",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "keyword.control",
+          "keyword",
+          "storage.modifier",
+          "storage.type",
+          "storage",
+          "variable.language"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "go.coverOnSave": true,
