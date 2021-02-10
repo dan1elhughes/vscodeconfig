@@ -9,7 +9,7 @@
   "editor.gotoLocation.multiple": "goto",
   "editor.hideCursorInOverviewRuler": true,
   "editor.lineHeight": 34,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "interval",
   "editor.minimap.enabled": false,
   "editor.occurrencesHighlight": false,
   "editor.overviewRulerBorder": false,
