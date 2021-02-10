@@ -6,7 +6,7 @@
   "editor.fontSize": 22,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.gotoLocation.multiple": "goto",
+  "javascript.implicitProjectConfig.checkJs": true,
   "editor.hideCursorInOverviewRuler": true,
   "editor.lineHeight": 34,
   "editor.lineNumbers": "interval",
@@ -78,5 +78,9 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "go.installDependenciesWhenBuilding": true
+  "go.installDependenciesWhenBuilding": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rewrap.autoWrap.enabled": true
 }
