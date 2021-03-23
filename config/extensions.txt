@@ -4,7 +4,6 @@ bungcip.better-toml
 casualjim.gotemplate
 coolbear.systemd-unit-file
 dbaeumer.vscode-eslint
-dzannotti.vscode-babel-coloring
 esbenp.prettier-vscode
 fabiospampinato.vscode-open-in-github
 flowtype.flow-for-vscode
