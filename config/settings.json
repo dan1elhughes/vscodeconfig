@@ -66,6 +66,8 @@
   "zenMode.fullScreen": false,
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "go.installDependenciesWhenBuilding": true,
+  "rewrap.autoWrap.enabled": true,
   "todohighlight.keywords": [
     {
       "text": "t.Skip()",
@@ -89,9 +91,7 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "go.installDependenciesWhenBuilding": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "rewrap.autoWrap.enabled": true
+  }
 }
