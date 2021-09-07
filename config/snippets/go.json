@@ -19,5 +19,13 @@
     "prefix": "makeslice",
     "description": "Make a fixed-length slice",
     "body": "${1} := make([]${2}, len(${3}))"
+  },
+  "debugf": {
+    "prefix": "debugf",
+    "description": "Debug to printf",
+    "body": [
+      "fmt.Printf(\"${1}: %+v\\n\", ${1})",
+      ""
+    ]
   }
 }
