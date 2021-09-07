@@ -66,6 +66,17 @@
   "zenMode.fullScreen": false,
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "todohighlight.keywords": [
+    {
+      "text": "t.Skip()",
+      "color": "#fff",
+      "backgroundColor": "#600",
+      "overviewRulerColor": "#F00",
+      "border": "1px solid #600",
+      "borderRadius": "3px",
+      "isWholeLine": true
+    }
+  ],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
